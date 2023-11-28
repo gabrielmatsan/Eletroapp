@@ -70,8 +70,6 @@ function TelaOne() {
 const styles = StyleSheet.create({
   container: { 
     flex: 1, 
-    alignItems: 'center',
-    
     backgroundColor:"#FFFBF2",
      },
   label: { 
