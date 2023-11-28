@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, StyleSheet } from 'react-native';
+import { View, TextInput, Button, StyleSheet, Keyboard } from 'react-native';
 
 export default function TelaTwo() {
   const [inputText, setInputText] = useState('');
@@ -60,6 +60,7 @@ export default function TelaTwo() {
     }
 
     setViewsComCores(novasViews);
+    Keyboard.dismiss()
   };
 
   return (
